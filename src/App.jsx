@@ -5,6 +5,7 @@ import ReverseScrabble from './games/scrabble/ReverseScrabble'
 function App() {
     const [activeComponent, setActiveComponent] = useState("")
     const navigationVisible = activeComponent === "";
+    // To add games, create a component in the games folder, then add to the games list and returned value
 
     const gameList = (
         <>

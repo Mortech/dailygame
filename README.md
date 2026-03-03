@@ -1,7 +1,11 @@
 # Daily Game Webapp
 To run locally, use `npm run dev`
 
+The idea is that there should be multiple short daily games, similar to something like https://smashdle.net/
 
+## Local dev
+To run locally, use `npm run dev`
+Code for the main page at App.jsx
 
 # React + Vite
 
