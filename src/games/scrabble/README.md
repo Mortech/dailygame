@@ -16,3 +16,7 @@ There are 3 game modes I have in mind for this:
 ## Daily Aspects
 
 As a daily game, the board played on should change every day to a different one. Ideally these would be pulled from a database of scrabble games, perhaps we could store a tiny mongodb with the games to use each day and update that periodically. Also, like how Wordle tracks your number of guesses used each day, some performance stats can be tracked for how well the player has done, a cookie should suffice for this.
+
+## Dev notes
+
+There is a scrabble solver written in js that we can yoink most of the code from: https://github.com/kamilmielnik/scrabble-solver 
